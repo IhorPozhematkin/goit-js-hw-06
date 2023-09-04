@@ -18,3 +18,4 @@ const addItem = function (array) {
 const list = document.querySelector("#ingredients");
 const items = addItem(ingredients);
 list.append(...items);
+ 

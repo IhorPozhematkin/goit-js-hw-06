@@ -5,7 +5,7 @@ numberCategories.forEach(category => {
     const title = category.firstElementChild.textContent;
     const element = category.firstElementChild.nextElementSibling.children.length;
 console.log(`Category: ${title}`);
-console.log(`Elements: ${element}`)});
+console.log(`Elements: `, element)});
 
 
 
